@@ -1,5 +1,7 @@
 # Titanic-Survival-Predictor
+
 This Python code builds and evaluates two machine learning models – Logistic Regression and Random Forest – to predict passenger survival on the Titanic. It loads the Titanic dataset, cleans the data, prepares features, and splits the data for training and testing. The models are then trained, tested, and their performance is measured using metrics like accuracy, error rates, and training time. This code provides a basic example of how to use machine learning to analyze and predict outcomes from real-world data, Here are the detailed steps:
+
 
 1. Import Libraries:
 •	pandas (pd): Used for data manipulation and analysis.
@@ -9,15 +11,18 @@ This Python code builds and evaluates two machine learning models – Logistic R
 •	sklearn.linear_model: Contains the Logistic Regression model.
 •	sklearn.ensemble: Contains the Random Forest Classifier model.
 •	sklearn.metrics: Used for evaluating model performance.
-2. Load Data:
-•	The code loads the Titanic dataset from a CSV file named 'train.csv'.
-3. Data Preprocessing:
+
+3. Load Data:
+•	Load the Titanic dataset from a CSV file named 'train.csv'.
+
+4. Data Preprocessing:
 •	Handling Missing Values:
 •	Fills missing values in the 'Age' column with the median age.
 •	Fills missing values in the 'Embarked' column with the most frequent embarkation point.
 •	One-Hot Encoding:
 •	Converts categorical features ('Sex' and 'Embarked') into numerical features using one-hot encoding. This is necessary for most machine learning algorithms.
-4. Feature Selection:
+
+5. Feature Selection:
 •	The code selects the following features as input for the models:
 •	'Pclass' (Passenger Class)
 •	'Age'
@@ -28,11 +33,14 @@ This Python code builds and evaluates two machine learning models – Logistic R
 •	'Embarked_Q' (One-hot encoded indicator for Queenstown embarkation)
 •	'Embarked_S' (One-hot encoded indicator for Southampton embarkation)
 •	The target variable is 'Survived' (whether the passenger survived or not).
-5. Data Splitting:
+
+6. Data Splitting:
 •	The data is split into training and testing sets using train_test_split. This allows the models to be trained on a portion of the data and evaluated on unseen data.
-6. Feature Scaling:
+
+7. Feature Scaling:
 •	The code uses StandardScaler to standardize the features. This helps to ensure that all features have a similar scale, which can improve the performance of some algorithms.
-7. Model Training and Evaluation:
+
+8. Model Training and Evaluation:
 •	Logistic Regression:
 •	A logistic regression model is trained on the training data.
 •	Predictions are made on the test data.
@@ -40,7 +48,6 @@ This Python code builds and evaluates two machine learning models – Logistic R
 •	The training/prediction time is also recorded.
 •	Random Forest Classifier:
 •	The same process is repeated for a Random Forest Classifier model.
-8. Output:
-•	The code prints the performance metrics for both models, along with their training/prediction times.
-Overall, this code demonstrates a common machine learning workflow, including data preprocessing, feature engineering, model selection, training, and evaluation. It provides a basic example of how to use Python libraries like pandas and scikit-learn to build and evaluate machine learning models.
+
+
 

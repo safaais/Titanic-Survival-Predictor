@@ -121,5 +121,5 @@ This Python code builds and evaluates two machine learning models – Logistic R
 8. The Output:
 
 
-  https://github.com/safaais/Titanic-Survival-Predictor/blob/cec7e4c654f16d15bc549496cd90d606a317f1b8/Screenshot%202024-08-12%20082208.png
+![image alt](https://github.com/safaais/Titanic-Survival-Predictor/blob/main/Screenshot%202024-08-12%20082208.png?raw=true)
 

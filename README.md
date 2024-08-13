@@ -6,7 +6,9 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
+
 1. Import Libraries:
+
    
 •	pandas (pd): Used for data manipulation and analysis.
 
@@ -24,13 +26,19 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
+
+
 2. Load Data:
+
    
 •	Load the Titanic dataset from a CSV file named 'train.csv'.
 
 
 
+
+
 3. Data Preprocessing:
+
    
 •	Handling Missing Values:
 
@@ -44,7 +52,10 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
+
+
 4. Feature Selection:
+
    
 •	The code selects the following features as input for the models:
 
@@ -67,20 +78,29 @@ This Python code builds and evaluates two machine learning models – Logistic R
 •	The target variable is 'Survived' (whether the passenger survived or not).
 
 
+
+
 5. Data Splitting:
+
    
 •	The data is split into training and testing sets using 'train_test_split' to allow the models to be trained on a portion of the data and evaluated on unseen data.
 
 
 
 
+
+
 6. Feature Scaling:
+
    
 •	The code uses StandardScaler to standardize the features to help to ensure that all features have a similar scale, which can improve the performance of some algorithms.
 
 
 
+
+
 7. Model Training and Evaluation:
+   
    
 •	Logistic Regression:
 

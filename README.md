@@ -7,7 +7,7 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
-1. Import Libraries:
+## 1. Import Libraries:
 
    
 •	pandas (pd): Used for data manipulation and analysis.
@@ -28,7 +28,7 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
-2. Load Data:
+## 2. Load Data:
 
    
 •	Load the Titanic dataset from a CSV file named 'train.csv'.
@@ -37,16 +37,16 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
-3. Data Preprocessing:
+## 3. Data Preprocessing:
 
    
-•	Handling Missing Values:
+### •	Handling Missing Values:
 
 •	Fills missing values in the 'Age' column with the median age.
 
 •	Fills missing values in the 'Embarked' column with the most frequent embarkation point.
 
-•	One-Hot Encoding:
+### •	One-Hot Encoding:
 
 •	Converts categorical features ('Sex' and 'Embarked') into numerical features using one-hot encoding. 
 
@@ -54,10 +54,10 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
-4. Feature Selection:
+## 4. Feature Selection:
 
    
-•	The code selects the following features as input for the models:
+### •	The code selects the following features as input for the models:
 
 •	'Pclass' (Passenger Class)
 
@@ -80,7 +80,7 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
-5. Data Splitting:
+## 5. Data Splitting:
 
    
 •	The data is split into training and testing sets using 'train_test_split' to allow the models to be trained on a portion of the data and evaluated on unseen data.
@@ -90,7 +90,7 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
-6. Feature Scaling:
+## 6. Feature Scaling:
 
    
 •	The code uses StandardScaler to standardize the features to help to ensure that all features have a similar scale, which can improve the performance of some algorithms.
@@ -99,10 +99,10 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 
 
-7. Model Training and Evaluation:
+## 7. Model Training and Evaluation:
    
    
-•	Logistic Regression:
+### •	Logistic Regression:
 
 •	A logistic regression model is trained on the training data.
 
@@ -112,13 +112,13 @@ This Python code builds and evaluates two machine learning models – Logistic R
 
 •	The training/prediction time is also recorded.
 
-•	Random Forest Classifier:
+### •	Random Forest Classifier:
 
 •	The same process is repeated for a Random Forest Classifier model.
 
 
 
-8. The Output:
+## 8. The Output:
 
 
 ![image alt](https://github.com/safaais/Titanic-Survival-Predictor/blob/main/Screenshot%202024-08-12%20082208.png?raw=true)
